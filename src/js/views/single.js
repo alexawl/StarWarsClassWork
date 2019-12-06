@@ -1,13 +1,20 @@
-import React, { useState, useEffect, useContext } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import { Context } from "../store/appContext";
+import { Consumer } from "../store/appContext";
 
 export const Single = props => {
-	const { store, actions } = useContext(Context);
 	return (
 		<div className="jumbotron">
-			<h1 className="display-4">This will show the demo element: {store.demo[props.match.params.theid].title}</h1>
+			<Consumer>
+				{({ store }) => {
+					return (
+						<h1 className="display-4">
+							This will show the demo element: {store.demo[props.match.params.theid].title}
+						</h1>
+					);
+				}}
+			</Consumer>
 
 			<hr className="my-4" />
 
