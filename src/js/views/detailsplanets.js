@@ -31,7 +31,7 @@ export class Details1 extends React.Component {
 		return (
 			<div className="tittledetail">
 				<div>
-					<h2 className="tittlebrowser">Databank //</h2>
+					<h2 className="tittlebrowser">Databank:</h2>
 				</div>
 				<div className="conteinerdetail row">
 					<div className="imgdetail">
@@ -42,7 +42,7 @@ export class Details1 extends React.Component {
 							<h2>{this.state.item.name}</h2>
 						</div>
 						<div className="contentdetail">
-							<p>This is a test of planets text.</p>
+							<p>All the information about the planets would go here.</p>
 							<Consumer>
 								{({ actions }) => {
 									return (

@@ -53,10 +53,10 @@ export class Home extends React.Component {
 		return (
 			<div className="tittlebod">
 				<div>
-					<h2 className="tittlebrowser">Browse Databank //</h2>
+					<h2 className="tittlebrowser">Browse Databank: </h2>
 				</div>
 				<div className="tittlegrid1">
-					<h3 className="h1grid1">Characters //</h3>
+					<h3 className="h1grid1">Characters:</h3>
 				</div>
 				<div className="container">
 					<div className="row">

@@ -15,6 +15,7 @@ body{
 
 .tittle{
     margin: auto;
+    color: white;
 }
 
 .tittlebod{
@@ -23,6 +24,7 @@ body{
     width: 100%;
     border-top-style: solid;
     border-bottom-style: solid;
+    color: rgb(236, 231, 231);
 }
 
 .tittlebrowser{
@@ -31,7 +33,7 @@ display:table-cell;
  height: 80px;
  vertical-align:middle;
  padding-left: 25px;
- color: white;
+ color: rgb(240, 235, 235);
 }
 
 .tittlegrid1{
@@ -78,6 +80,7 @@ display:table-cell;
 
 .card-title{
     font-size: 25px;
+    color: black;
 }
 
 .card-body{
@@ -109,14 +112,14 @@ display:table-cell;
 .imgdetail{
     width: 55%;
     height: auto;
-    border-right: solid red 2px;
+    border-right: solid red 5px;
 }
 
 .descriptiondetail{
     width: 45%;
     height: auto;
     color: white;
-    background-image: url("https://lumiere-a.akamaihd.net/v1/images/og-generic_02031d2b.png?region=0%2C0%2C1200%2C1200")
+    background-image: url("http://cdn8.dissolve.com/p/D1307_52_005/D1307_52_005_0004_600.jpg")
 }
 
 .tittledetail2{
@@ -137,6 +140,7 @@ display:table-cell;
     margin-bottom: 50px;
     height: 75px;
     width: 80%;
+    
 }
 
 .bottomdetail1{

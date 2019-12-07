@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 //include images into your bundle
-import arturito from "../../img/arturito1.jpg";
+import arturito from "../../img/jedi.jpg";
 
 //create your first component
 export const Card = props => {
@@ -16,11 +16,11 @@ export const Card = props => {
 				</div>
 				{props.type == "people" ? (
 					<Link to={"/details/" + props.type + "/" + props.id}>
-						<a className="card-text nav-link">Get info Details</a>
+						<a className="card-text nav-link">Character info Details</a>
 					</Link>
 				) : (
 					<Link to={"/detailsplanets/" + props.type + "/" + props.id}>
-						<a className="card-text nav-link">Get info Details</a>
+						<a className="card-text nav-link">Planet info Details</a>
 					</Link>
 				)}
 			</div>

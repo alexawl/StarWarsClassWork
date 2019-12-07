@@ -2,6 +2,6 @@ import React, { Component } from "react";
 
 export const Footer = () => (
 	<footer className="footer">
-		<p>Copyright © Your Website 2019</p>
+		<p>Copyright © Website 2019 Created by Alejandro Araya</p>
 	</footer>
 );
